@@ -116,7 +116,7 @@ How_To_Develop_a_Chatbot_From_Scratch
 5. Techniques
     5.1 NLP-related
         -- word spotting by using regular expressions and re syntax(re.findall and re.search).
-        - string operations, such as "re.sub", "join", "string.rstrip()"
+        -- string operations, such as "re.sub", "join", "string.rstrip()"
         -- sentence tokenization
         -- case convert
     
