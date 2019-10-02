@@ -106,25 +106,25 @@ How_To_Develop_a_Chatbot_From_Scratch
     -- supporting exit the conversation
                                                                    
 4. Additional functionalities
-    4.1 Suicide or murder detection(support Windows system): 
-        -- if user's input includes "kill|murder|suicide" (case insensitive), Eliza will beep twice as a warning, 
+    -- 4.1 Suicide or murder detection(support Windows system): 
+            -- if user's input includes "kill|murder|suicide" (case insensitive), Eliza will beep twice as a warning, 
             and give an answer by using the following word spotting logic.
 
-    4.2 Input timeout detection: if user didn't enter anything in 20s, Eliza would keep asking a question to keep the conversation going.
+    -- 4.2 Input timeout detection: if user didn't enter anything in 20s, Eliza would keep asking a question to keep the conversation going.
 
 
 5. Techniques
-    5.1 NLP-related
-        -- word spotting by using regular expressions and re syntax(re.findall and re.search).
-        -- string operations, such as "re.sub", "join", "string.rstrip()"
-        -- sentence tokenization
-        -- case convert
+    -- 5.1 NLP-related
+            -- word spotting by using regular expressions and re syntax(re.findall and re.search).
+            -- string operations, such as "re.sub", "join", "string.rstrip()"
+            -- sentence tokenization
+            -- case convert
     
-    5.2 Python
-        -- input and print founctions
-        -- dictionary and list
-        -- while and for loop 
-        -- if/else logic
-        -- %s placeholder
-        -- making beep sound
-        -- random package 
+    -- 5.2 Python
+            -- input and print founctions
+            -- dictionary and list
+            -- while and for loop 
+            -- if/else logic
+            -- %s placeholder
+            -- making beep sound
+            -- random package 
