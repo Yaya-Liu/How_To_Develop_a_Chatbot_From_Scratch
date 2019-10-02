@@ -98,6 +98,7 @@ How_To_Develop_a_Chatbot_From_Scratch
                                               
 
 3. functionalities:
+
     -- conversation initialization
     -- users' name extraction
     -- keeping conversation with encouragement
@@ -106,6 +107,7 @@ How_To_Develop_a_Chatbot_From_Scratch
     -- supporting exit the conversation
                                                                    
 4. Additional functionalities
+
     -- 4.1 Suicide or murder detection(support Windows system): 
             -- if user's input includes "kill|murder|suicide" (case insensitive), Eliza will beep twice as a warning, 
             and give an answer by using the following word spotting logic.
@@ -114,6 +116,7 @@ How_To_Develop_a_Chatbot_From_Scratch
 
 
 5. Techniques
+
     -- 5.1 NLP-related
             -- word spotting by using regular expressions and re syntax(re.findall and re.search).
             -- string operations, such as "re.sub", "join", "string.rstrip()"
